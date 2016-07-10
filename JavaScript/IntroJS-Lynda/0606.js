@@ -2,7 +2,7 @@ var myNum = 32;
 var myResult = 'Success!';
 
 function randomizer(limit) {
-	var myNum = Math.floor(Math.random() * limit); //m. random number between 0 and limit enteed.
+	var myNum = Math.floor(Math.random() * limit); //m. random number between 0 and limit entered.
 	
 	console.log('myNum is ' + myNum);
 	console.log('Global myNum is ' + window.myNum); //m. the window. function can be used if you need to access global variables
