@@ -1,3 +1,4 @@
-//ctrl+. to change all names of something to something else
+//visual studio commands:
+//ctrl+. to bring up menu to change all names of something to something else
 //alt drag mouse down to insert the same text vertically across multiple lines
 //ctrl+t inverts characters
