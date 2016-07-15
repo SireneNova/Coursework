@@ -1,1 +1,1 @@
-JavaScript Tutorials
+JavaScript and jQuery Tutorials
