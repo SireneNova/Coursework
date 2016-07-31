@@ -7,7 +7,7 @@ These are not my original creations, but I walked through steps to make and lear
 [Code First]: https://github.com/rebeccapizano/Coursework/blob/master/CSharp/CodeFirstDrill.cs
 
 ###Python
-* Read the books Python in a Day 1 & 2, and followed along to make [scripts].
+* Read the books Python in a Day 1 & 2 and followed along to make [scripts].
 [scripts]: https://github.com/rebeccapizano/Coursework/tree/master/Python/PythonInADay
 
 ###JavaScript
