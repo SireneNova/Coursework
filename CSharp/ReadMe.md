@@ -1,11 +1,14 @@
-###Tutorial Series
-More detailed descriptions can be found within the folders.
+###C# Coursework
+Each of the files and folders above is described in the sections below.
+
+####Tutorial Series
+Each folder contains files from a tutorial series. More detailed descriptions can be found within each.
 * Banas Tutorial contains files from following a C# video tutorial.
 * LINQtutorial contains files from following a LINQ tutorial.
 * SerializationDeserialization contains files from following a tutorial on serialization and deserialization in C#.
 
 
-###Code First Drill
+####Code First Drill
 CodeFirstDrill is a file that creates and modifies a Code First database using Entity Framework in Visual Studio. It was made 
 by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en-us/data/jj193542.aspx. </br></br>
 Objective: 
