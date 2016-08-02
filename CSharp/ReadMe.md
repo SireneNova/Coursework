@@ -2,7 +2,7 @@
 Each of the files and folders above is described in the sections below.
 
 ####Folders
-Each folder contains more detailed descriptions.
+Each folder contains more detailed descriptions within each.
 * Banas Tutorial contains files from following a C# video tutorial.
 * LINQtutorial contains files from following a LINQ tutorial.
 * SerializationDeserialization contains files from following a tutorial on serialization and deserialization in C#.
@@ -12,7 +12,7 @@ Each folder contains more detailed descriptions.
 CodeFirstDrill is a file that creates and modifies a Code First database using Entity Framework in Visual Studio. It was made 
 by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en-us/data/jj193542.aspx. </br></br>
 Objective: 
-* Write an application that performs data access using Entity Framework Code First.</br></br>
+* Write an application that performs data access using Entity Framework Code First.</br>
 
 Steps Taken:</br>
 * Rowen used Visual Studio 2012. I used Visual Studio 2015, and it was very similar. A key difference I discovered,
