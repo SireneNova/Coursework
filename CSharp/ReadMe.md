@@ -1,8 +1,8 @@
 ###C# Coursework
 Each of the files and folders above is described in the sections below.
 
-####Tutorial Series
-Each folder contains files from a tutorial series. More detailed descriptions can be found within each.
+####Folders
+Each folder contains more detailed descriptions.
 * Banas Tutorial contains files from following a C# video tutorial.
 * LINQtutorial contains files from following a LINQ tutorial.
 * SerializationDeserialization contains files from following a tutorial on serialization and deserialization in C#.
