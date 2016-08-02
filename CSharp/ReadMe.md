@@ -19,7 +19,7 @@ Steps Taken:</br>
 was that I had to download SQL Server Data Tools to get the same database-viewing options. 
 The version used in the tutorial evidently came with this capability built-in.
 * Classes of blogs and posts were written in C#. These classes will later translate into sections of the database.
-* Using the "virtual" keyword in front of navigation properties enables lazy loading, which will allow SQL to automatically query and populate these properties when they are accessed.
+* Using the "virtual" keyword in front of navigation properties enables lazy loading, which allows SQL to automatically query and populate these properties when they are accessed.
 * Entity Framework was added to the project using the NuGet package.
 * Derived contexts could then be defined.
 
