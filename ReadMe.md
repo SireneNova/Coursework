@@ -11,6 +11,6 @@ These are not my original creations, but I walked through steps to make and lear
 [scripts]: https://github.com/rebeccapizano/Coursework/tree/master/Python/PythonInADay
 
 ###JavaScript
-* Worked though lengthy instructional [Lynda.com tutorials] and [Little Web Hut tutorials].
+* Worked through lengthy instructional [Lynda.com tutorials] and [Little Web Hut tutorials].
 [Lynda.com tutorials]: https://github.com/rebeccapizano/Coursework/tree/master/JavaScript/IntroJS-Lynda
 [Little Web Hut Tutorials]: https://github.com/rebeccapizano/Coursework/tree/master/JavaScript/Little-Web-Hut
