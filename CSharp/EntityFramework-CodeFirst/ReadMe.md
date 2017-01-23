@@ -16,7 +16,7 @@ by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en
 * **Added Entity Framework** to the project using the NuGet package.
 * **Created a context**:
    * A context, BlogContext, could then be defined, derived from the DBContext, a base type in Entity Framework. A context represents a session with the database, which allows for querying and selecting data.
-   * In the context, define a property that is a DBSet for every type in model. DBSets allow for querying and saving instances of the types.
+   * In the context, defined a property that is a DBSet for every type in model. DBSets allow for querying and saving instances of the types.
 * **Accessed, queried, and displayed the data using the context**: 
    * The context was wrapped in a "using" statement.
    * A blog was defined with a name to be entered in by a user from the console.
