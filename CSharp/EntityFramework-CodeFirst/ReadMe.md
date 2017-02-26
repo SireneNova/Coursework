@@ -50,8 +50,8 @@ The tutorial showed me:
 * how to create a Code First model, 
 * how to create a database from that model, 
 * how to change the database using Code First Migrations as the model changes
-* , and how to override code first defaults using Data Annotations and Fluent API. 
+* how to override code first defaults using Data Annotations and Fluent API. 
 
 I saw how a database structure was generated from a class structure and portrayed within the Visual Studio SQL Server Object Explorer. I also noticed that the data itself was not portrayed.
 
-I discovered I needed SQL Server Data Tools add-on for Visual Studio to view the SQL Server Object Explorer, so I learned how that works and how Visual Studio accesses servers. 
+I discovered I needed SQL Server Data Tools add-on for Visual Studio to view the SQL Server Object Explorer, so I learned how that works and how Visual Studio accesses servers. Edit: When I first installed SSDT in 2016, the toolset was an add-on. Most recently Visual Studio with SSDT appears to be a separate application. 
