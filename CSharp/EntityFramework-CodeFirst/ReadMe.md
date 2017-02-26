@@ -47,10 +47,10 @@ by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en
 I learned about how Entity Framework Code First works and was reminded of what Entity Framework is and why it is useful. I remembered that Entity Framework can also be used to create classes and databases DB First and Model First. 
 
 The tutorial showed me: 
-* how to create a Code First model, 
-* how to create a database from that model, 
+* how to create a Code First model
+* how to create a database from that model
 * how to change the database using Code First Migrations as the model changes
-* how to override code first defaults using Data Annotations and Fluent API. 
+* how to override code first defaults using Data Annotations and Fluent API
 
 I saw how a database structure was generated from a class structure and portrayed within the Visual Studio SQL Server Object Explorer. I also noticed that the data itself was not portrayed.
 
