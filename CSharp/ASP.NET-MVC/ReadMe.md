@@ -64,7 +64,7 @@ Followed the steps oulined in the link above, summarized below:
 **Viewed the Database**
 * Opened the server explorer by going to Tools, Connect to Database, and cancelling.
 * Right-clicked on a table to view the data.
-* Natigated to the student section of the web application.
+* Navigated to the student section of the web application.
 
 
 ####Results
