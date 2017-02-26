@@ -59,10 +59,10 @@ Followed the steps oulined in the link above, summarized below:
   * Observed the elements of the controller file: 
      * A class variable has been created that instantiates a database context object.
      * The Index action method gets a list of students from the Students entity set.
-     * The Student\Index.cshtml view displays the list in a table.
+   * The Student\Index.cshtml view displays the list in a table.
 
 **Viewed the Database**
-* Opened the server explorer by going to Tools, Connect to Database, and cancelling.
+* Opened the server explorer by going to Tools, Connect to Database, and cancelling. Edit: SQL Server Data Tools is now its own separate application of Visual Studio 2015. The server explorer and database shows up right away. 
 * Right-clicked on a table to view the data.
 * Navigated to the student section of the web application.
 
