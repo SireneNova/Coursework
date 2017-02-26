@@ -68,4 +68,4 @@ Followed the steps oulined in the link above, summarized below:
 
 
 ####Results
-An MVC web application with ASP.NET and Entity Framework has a lot of interconnected components, and I have a better understanding of how they work together and why. I didn't run into any issues unless I made a mistake (I lost connection during the first Entity Framework install, and it didn't install). A controller and views were only created for the student data table, but they can also be created for the other tables. I may try that later.
+An MVC web application with ASP.NET and Entity Framework has a lot of interconnected components, and I have a better understanding of how they work together and why. I didn't run into any issues unless I made a mistake (I lost connection during the first Entity Framework install, and it didn't install). A controller and views were only created for the student data table, so only this table's data was able to be viewed on a web page. I may try to add controllers and views for the other tables later.
