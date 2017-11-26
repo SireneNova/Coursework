@@ -1,12 +1,12 @@
 
-###Code First Drill
+### Code First Drill
 CodeFirstDrill is a file that creates and modifies a Code First database using Entity Framework (EF) in Visual Studio. It was made 
 by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en-us/data/jj193542.aspx. 
 
-####Objective: 
+#### Objective: 
 * Write an application that performs data access using Entity Framework Code First.
 
-####Steps Taken:
+#### Steps Taken:
 * Rowen used Visual Studio 2012. I used Visual Studio 2015, and it was very similar. A key difference I discovered, was that I had to download SQL Server Data Tools to get the same database-viewing options. The version used in the tutorial evidently came with this capability built-in.
 * Wrote plain classes of blogs and posts in C#. Blogs can have many posts. These classes, domain classes, have no dependency on EF, but will later translate into sections of the database after EF is used.
 * **Added Properties to classes**:
@@ -43,7 +43,7 @@ by following a Microsoft tutorial by Rowen Miller: https://msdn.microsoft.com/en
      * Added migration and applied changes.
      * Observed that the new name was changed in the database.
 
-####Results
+#### Results
 I learned about how Entity Framework Code First works and was reminded of what Entity Framework is and why it is useful. I remembered that Entity Framework can also be used to create classes and databases DB First and Model First. 
 
 The tutorial showed me: 
