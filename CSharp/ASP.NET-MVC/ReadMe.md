@@ -1,11 +1,11 @@
-###ASP.Net MVC Application in C# - The Contoso University
+### ASP.Net MVC Application in C# - The Contoso University
 ___
 
-####Objective
+#### Objective
 Create an ASP.NET MVC web application for a fictional university using Entity Framework and Visual Studio. Tutorial from MSDN:
 https://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application
 
-####Steps Taken
+#### Steps Taken
 Followed the steps oulined in the link above, summarized below:
 
 **Created Web Project**
@@ -67,5 +67,5 @@ Followed the steps oulined in the link above, summarized below:
 * Navigated to the student section of the web application.
 
 
-####Results
+#### Results
 An MVC web application with ASP.NET and Entity Framework has a lot of interconnected components, and I have a better understanding of how they work together and why. I didn't run into any issues unless I made a mistake (I lost connection during the first Entity Framework install, and it didn't install). A controller and views were only created for the student data table, so only this table's data was able to be viewed on a web page. I may try to add controllers and views for the other tables later.
