@@ -1,0 +1,139 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Delegates
+{
+    public delegate void shippingDelegate(double price, ref double fee);
+
+
+    public abstract class shippingDest
+    {
+        public bool isHighRisk;
+        public virtual void calcFees(double price, ref double fee) { }
+
+        public static shippingDest getDestinationInfo(string zone)
+        {
+            if (zone.Equals("zone1"))
+            {
+                return new zone1();
+            }
+            else if (zone.Equals("zone2"))
+            {
+                return new zone2();
+            }
+            else if (zone.Equals("zone3"))
+            {
+                return new zone3();
+            }
+            else if (zone.Equals("zone4"))
+            {
+                return new zone1();
+            }
+            else return null;
+        }
+    }
+
+    public class zone1 : shippingDest
+    {
+        public zone1()
+        {
+            this.isHighRisk = false;
+        }
+
+        public override void calcFees(double price, ref double fee)
+        {
+            fee = price * .25;
+        }
+    }
+
+    public class zone2 : shippingDest
+    {
+        public zone2()
+        {
+            this.isHighRisk = true;
+        }
+
+        public override void calcFees(double price, ref double fee)
+        {
+            fee = price * .12;
+        }
+    }
+
+    public class zone3 : shippingDest
+    {
+        public zone3()
+        {
+            this.isHighRisk = false;
+        }
+
+        public override void calcFees(double price, ref double fee)
+        {
+            fee = price * .08;
+        }
+    }
+
+    public class zone4 : shippingDest
+    {
+        public zone4()
+        {
+            this.isHighRisk = false;
+        }
+
+        public override void calcFees(double price, ref double fee)
+        {
+            fee = price * .04;
+        }
+
+    }
+    
+    class Program
+    {        
+        static void Main(string[] args)
+        {
+            shippingDelegate shippingCost;
+            shippingDest zone;
+
+            string theZone;
+            do
+            {                
+                Console.WriteLine("What is the destination zone? ");
+                theZone = Console.ReadLine();
+                if(theZone!="exit")
+                {
+                    zone = shippingDest.getDestinationInfo(theZone);
+                    if (zone != null)
+                    {
+                        Console.WriteLine("What is the item price?");
+                        double price = Convert.ToDouble(Console.ReadLine());
+
+                        shippingCost = zone.calcFees;
+
+                        if (zone.isHighRisk)
+                        {
+                            shippingCost += delegate(double thePrice, ref double fee)
+                            {
+                                fee += 25;
+                            };
+                        }
+
+                        double theFee = 0;
+                        shippingCost(price, ref theFee);
+                        Console.WriteLine("The shipping fees are {0}", theFee);
+                    }
+                    else
+                    {
+                        Console.WriteLine("unknown destination. try again.");
+                    }
+
+                }               
+
+            }
+            while (theZone!="exit");
+
+        }
+
+    }
+}
