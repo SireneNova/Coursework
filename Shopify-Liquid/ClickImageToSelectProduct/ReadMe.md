@@ -10,7 +10,7 @@ Since some product variants have the same image, like different sizes of a shirt
 
 I attempted to change the code by observing it, but the structure was too unfamiliar to get the result. In product.liquid, I tried to extract the list of variants associated with the clicked thumbnail image and use that to change the options in the select menu. I was able to get the variants, but couldn't figure out how to change the option. I did become more familiar with general ways to make JavaScript changes in Liquid. 
 
-I discovered an online course in Liquid through Lynda and the lesson I skimmed explained that Shopify has good documentation, and to check it out. I then found documentation on Shopify that explained exactly how to [Select a variant by clicking on its image](https://help.shopify.com/en/themes/customization/products/variants/select-variants-by-clicking-images). I wish I had done that earlier.
+I discovered an online course in Liquid through Lynda, and a lesson I skimmed explained that Shopify has good documentation, and to check it out. I then found documentation on Shopify that explained exactly how to [Select a variant by clicking on its image](https://help.shopify.com/en/themes/customization/products/variants/select-variants-by-clicking-images). I wish I had done that earlier.
 
 The additions made were very fairly complex, with unfamiliar syntax to me. 
 
