@@ -77,4 +77,4 @@ $(document).ready(function() {
 ```
 
 ## Results
-It worked! I have learned to check documentation sooner when I am stuck. I would like to learn liquid more in depth to understand it better and return to this code in the future to see if it makes sense.
+It worked! I have learned to check documentation sooner when I am stuck. I would like to learn Liquid more in depth and return to this code in the future to see if it makes more sense.
