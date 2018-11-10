@@ -8,13 +8,13 @@ The goal was to change the default product page code to allow a matching dropdow
 ## Steps Taken
 Since some product variants have the same image, like different sizes of a shirt, the new design would benefit from having a default selection like "pick a size" so that a dropdown update doesn't neccessarily assume a size when an image is clicked. This dropdown customization was done [here](https://github.com/rebeccapizano/Coursework/tree/master/Shopify-Liquid/DropdownCustomization).
 
-I attempted to change the code by observing it, but the structure was too unfamiliar to get the result. I did become more familiar with general ways to make JavaScript changes. 
+I attempted to change the code by observing it, but the structure was too unfamiliar to get the result. In product.liquid, I tried to extract the list of variants associated with the clicked thumbnail image and use that to change the options in the select menu. I was able to get the variants, but couldn't figure out how to change the option. I did become more familiar with general ways to make JavaScript changes. 
 
-I discovered an online course in Liquid through Lynda and after wathcing a lesson, realizd that Shopify has good documentation, and to check it out. I then found documentation on Shopify that explained exactly how to [Select a variant by clicking on its image](https://help.shopify.com/en/themes/customization/products/variants/select-variants-by-clicking-images). 
+I discovered an online course in Liquid through Lynda and the lesson I skimmed explained that Shopify has good documentation, and to check it out. I then found documentation on Shopify that explained exactly how to [Select a variant by clicking on its image](https://help.shopify.com/en/themes/customization/products/variants/select-variants-by-clicking-images). I wish I had done that earlier.
 
-The additions made were very complex: 
+The additions made were very fairly complex, with unfamiliar syntax to me. 
 
-For my theme, this needed to be placed in theme.liquid rather than product.liquid:
+For my theme, this needed to be placed in theme.liquid rather than product.liquid, where I had mostly been looking. I'm not yet sure exactly how it works, but it appears to extract the variant from the list of products, rather than the thumbnail image, and use that to set the options:
 ```
 {% comment %}
 Place this in your product.liquid template, at the bottom.
@@ -53,7 +53,7 @@ Place this in your product.liquid template, at the bottom.
 </script> 
 {% endif %}
 ```
-This was places in theme.liquid.js:
+This was placed in theme.liquid.js. It appears to make some kind of alteration to the thumbnail images. Both this and the function above have strings with curious jibberish.
 ```
 $(document).ready(function() {
   thumbnails = $('img[src*="/products/"]').not(':first');
@@ -77,4 +77,4 @@ $(document).ready(function() {
 ```
 
 ## Results
-
+It worked! I have learned to check documentation sooner when I am stuck. I would like to learn liquid more in depth to understand it better and return to this code in the future to see if it makes sense.
