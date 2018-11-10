@@ -64,4 +64,4 @@ value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_cur
 It was far more complex to achieve this change than expected in Liquid, but it works beautifully, and the documentation was easy to find and follow. I had thought The next step is to attempt to disable options that don't exist after another option is selected.
 
 Here is the final result:
-https://github.com/rebeccapizano/Coursework/blob/master/Shopify-Liquid/DropdownCustomization/solvedPickAnOption.png
+![alt text](https://github.com/rebeccapizano/Coursework/blob/master/Shopify-Liquid/DropdownCustomization/solvedPickAnOption.png)
