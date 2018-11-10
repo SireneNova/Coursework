@@ -1,4 +1,4 @@
-# Coursework from step-by-step tutorials
+# Step-by-step tutorials
 ---
 These are mostly not my original creations, but I walked through steps to make and learn from them. Some highlights are listed below. See my Portfolio repository for original work.
 
