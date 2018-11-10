@@ -8,7 +8,7 @@ The goal was to change the default product page code to allow a matching dropdow
 ## Steps Taken
 Since some product variants have the same image, like different sizes of a shirt, the new design would benefit from having a default selection like "pick a size" so that a dropdown update doesn't neccessarily assume a size when an image is clicked. This dropdown customization was done [here](https://github.com/rebeccapizano/Coursework/tree/master/Shopify-Liquid/DropdownCustomization).
 
-I attempted to change the code by observing it, but the structure was too unfamiliar to get the result. In product.liquid, I tried to extract the list of variants associated with the clicked thumbnail image and use that to change the options in the select menu. I was able to get the variants, but couldn't figure out how to change the option. I did become more familiar with general ways to make JavaScript changes. 
+I attempted to change the code by observing it, but the structure was too unfamiliar to get the result. In product.liquid, I tried to extract the list of variants associated with the clicked thumbnail image and use that to change the options in the select menu. I was able to get the variants, but couldn't figure out how to change the option. I did become more familiar with general ways to make JavaScript changes in Liquid. 
 
 I discovered an online course in Liquid through Lynda and the lesson I skimmed explained that Shopify has good documentation, and to check it out. I then found documentation on Shopify that explained exactly how to [Select a variant by clicking on its image](https://help.shopify.com/en/themes/customization/products/variants/select-variants-by-clicking-images). I wish I had done that earlier.
 
