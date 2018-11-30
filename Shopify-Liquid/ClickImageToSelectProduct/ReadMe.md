@@ -79,4 +79,4 @@ $(document).ready(function() {
 ## Results
 It worked! I have learned to check documentation sooner when I am stuck. I would like to learn Liquid more in depth and return to this code in the future.
 
-Afterwards, from other examples, I saw that I could include the added code in the theme.liquid as a snippet instead of having it there altogether. It seemed like this would give it a little more compartmentalization and readability, so I moved this code into a snippet called "click-variant-image.liquid" and added a line ```{% include 'click-variant-image' %}``` to the theme.liquid in place of the code that I'd moved.
+Afterwards, from other examples, I saw that I could include the added code in the theme.liquid as a snippet instead of having it there altogether. It seemed like this would give it a little more compartmentalization and readability, so I moved this code into a snippet called "click-variant-image.liquid" and added a line ```{% include 'click-variant-image' %}``` to the theme.liquid in place of the code there before.
