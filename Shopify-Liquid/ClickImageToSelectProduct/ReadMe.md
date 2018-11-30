@@ -17,7 +17,7 @@ The additions made were very fairly complex, with unfamiliar syntax to me.
 For my theme, this needed to be placed in theme.liquid rather than product.liquid, where I had mostly been looking. I'm not yet sure exactly how it works, but it appears to extract the variant from the list of products, rather than the thumbnail image, and use that to set the options:
 ```
 {% comment %}
-Place this in your product.liquid template, at the bottom.
+Customization to select a product by clicking on a variant image.
 {% endcomment %}
 {% if product.variants.size > 1 %}
 <script>
