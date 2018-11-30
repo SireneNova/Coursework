@@ -14,7 +14,7 @@ I discovered an online course in Liquid through Lynda, and a lesson I skimmed ex
 
 The additions made were very fairly complex, with unfamiliar syntax to me. 
 
-For my theme, this needed to be placed in theme.liquid rather than product.liquid, where I had mostly been looking. I'm not yet sure exactly how it works, but it appears to extract the variant from the list of products, rather than the thumbnail image, and use that to set the options:
+For my theme, the following needed to be placed in theme.liquid rather than product.liquid, where I had mostly been looking. I'm not yet sure exactly how it works, but it appears to extract the variant from the list of products, rather than the thumbnail image, and use that to set the options:
 ```
 {% comment %}
 Customization to select a product by clicking on a variant image.
@@ -53,7 +53,7 @@ Customization to select a product by clicking on a variant image.
 </script> 
 {% endif %}
 ```
-This was placed in theme.liquid.js. It appears to make some kind of alteration to the thumbnail images. Both this and the function above have strings with curious jibberish.
+The following was placed in theme.liquid.js. It appears to make some kind of alteration to the thumbnail images. Both this and the function above have strings with curious jibberish.
 ```
 $(document).ready(function() {
   thumbnails = $('img[src*="/products/"]').not(':first');
