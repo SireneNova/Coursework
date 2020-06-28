@@ -1,1 +1,1 @@
-This is a blend of responses to challenges and tutorial solutions I followed along with to learn Pytorch and create an artificial intelligence program that could read hand-written numbers.
+This is a blend of responses to challenges and tutorial solutions I followed along with to learn Pytorch and create an artificial intelligence program that could read hand-written numbers. A couple tutorial solutions didn't work, so I had to look to various sources and make alterations.
