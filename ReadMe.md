@@ -1,6 +1,6 @@
 # Step-by-step tutorials
 ---
-These are mostly not my original creations, but I walked through steps to make and learn from them. Some highlights are listed below. See my Portfolio repository for original work.
+These are mostly not my original creations, but I walked through steps to make and learn from them. Some highlights are listed below. See my Portfolio repository for original work.  I changed my name some time ago, so if you see a different name in here, that's still me.
 
 ## C#
 * Used Entity Framework to create and access a [Code First](https://github.com/rebeccapizano/Coursework/blob/master/CSharp/CodeFirstDrill.cs) database following a Microsoft tutorial.
