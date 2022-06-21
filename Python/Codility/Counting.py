@@ -1,4 +1,6 @@
-# This is from an example in a lesson on counting. It took me a while to wrap my head around this solution and am simply saving my comments here for reference:
+# This is from an example in a lesson on counting elements. The purpose of the code is to efficiently tell if an element can be swapped between each of two arrays to make the sum of them equal. 
+# It returns True or False depending on whether there is at least one element from each array that can be swapped or not. 
+# It took me a while to wrap my head around this solution and am simply saving my comments here for reference:
 
 def counting(A, m):
     n = len(A)
