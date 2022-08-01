@@ -1,4 +1,4 @@
-# A way of sorting a list containing values in the set {0, 1...k}. This interested me because it is relativeley efficient O(n+k while have a nested for loop:
+# A way of sorting a list containing values in the set {0, 1...k}. This interested me because it is relativeley efficient O(n+k) while have a nested for loop:
 
 def countingSort(A, k):
     n = len(A)
